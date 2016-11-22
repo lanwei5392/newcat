@@ -1,0 +1,37 @@
+* {
+	-moz-box-sizing: border-box;
+		 box-sizing: border-box;
+}
+
+.body {
+	width: 100%;
+	max-height: 1200px;
+	background-color: "white";
+	
+}
+
+.container {
+	max-width: 700px;
+	background-color: #efefef;
+	padding: 10px;
+	margin: 0;
+	height: 400px;
+}
+
+.cat-list {
+	float: left;
+}
+
+.cat-view {
+	float: right;
+}
+
+.h2 {
+	font-size: 20px;
+	text-align: center;
+}
+
+.cat-img {
+	height: 150px;
+	width: 200px;
+}
