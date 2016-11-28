@@ -10,6 +10,14 @@
 	
 }
 
+.container {
+	max-width: 900px;
+	background-color: #efefef;
+	padding: 10px;
+	margin-left: 100px;
+	height: 600px;
+}
+
 .cat-list {
 	float: left;
 	font-size: 30px;
@@ -28,18 +36,4 @@
 .cat-image {
 	height: 150px;
 	width: 200px;
-}
-
-.admin {
-	float: left;
-}
-
-.admin-form {
-	float: left;
-	margin-left: 80px;
-}
-
-.save-cancel {
-	float: left;
-	margin-left: 100px;
 }

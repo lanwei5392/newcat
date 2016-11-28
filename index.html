@@ -4,19 +4,27 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>New-Cat-Clicker</title>
+	<title>Cat Clicker</title>
 </head>
 <body>
-	<div class="container">
-		<ul id="cat-list"></ul>
+		
+	<ul id="cat-list"></ul>
 
-		<div id="cat-view">
-			<h2 id="cat-name"></h2>
-			<div id="cat-count"></div>
-			<img id="cat-img" src="">
-		</div>
+	<div id="cat">
+		<h2 id="cat-name"></h2>
+		<div id="cat-count"></div>
+		<img id="cat-image" src="">
 	</div>
 
+	<div id="admin-section">
+	<h2>Admin</h2>
+		<form id="admin-form" class="admin-form">
+			<label>Name</label><input id="name"><br>
+			<label>imgURL</label><input id="imgURL"><br>
+			<label>Clicks</label><input id="clicks"><br>
+			<button id="save">Save</button><button id="cancel">Cancel</button>
+		</form>
+	</div>
 	<script src="js/app.js"></script>
 </body>
 </html>
